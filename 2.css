@@ -1,0 +1,73 @@
+body {
+	text-align: center;
+	background-color: #2BD79F;
+}
+
+h1{
+	border-color:red;
+    width:40%;
+    margin:auto;
+    margin-top: 20px;
+    text-align: center;
+    background-color: #3EAD89;
+    color: #2BD79F;
+}
+#container{
+	margin: 2% auto 0 auto;
+    width: 50%;
+	text-align: center;
+	background-color: #3EAD89;
+	padding-top: 1%;
+	padding-bottom: 1%;
+
+}
+#container textarea{
+	text-align: center;
+	padding: 3% 17.8% 2% 17.8%;
+	margin: auto auto auto auto;
+	color: red;
+}
+
+
+#botonEnviar, #botonLimpiar {
+	margin: 1% auto auto auto;
+	padding: 1% 5% 1% 5%;
+	width:52.5%;
+	background: #3e9cbf; 
+	border:1px solid #3e9cbf;
+	cursor:pointer;
+	font-size:175%;
+	font-family:Oswald, sans-serif; 
+	letter-spacing:150%;
+	color: #fff;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+
+#botonEnviar:hover, #botonEnviar:focus,#botonLimpiar:hover,#botonLimpiar:focus {
+	color:#dfe7ea;
+	background: red; 
+}
+
+#resultado{
+	margin: 1% auto 0 auto;
+    width: 50%;
+	text-align: center;
+	background-color: #3EAD89; 
+}
+
+#resultado table{
+	text-align: center;
+	padding: 1% 10% 1% 10%;
+	margin: 1% 1% 1% 1%;
+	background-color: #FFC7A5;
+}
+
+ td{
+	text-align: center;
+	padding: 2% 0 1% 0;
+	margin: 1% auto 1% auto;
+	width: 5%;
+	background-color: #FFF2EA;
+}
