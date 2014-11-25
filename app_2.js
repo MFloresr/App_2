@@ -9,12 +9,14 @@ var TextoDeArea = document.createElement('textarea');
 
 var botonComprovar = document.createElement('input');
 	botonComprovar.setAttribute('type','button');
-	botonComprovar.setAttribute('value','Comprovar')
+	botonComprovar.setAttribute('value','Comprovar');
+	botonComprovar.setAttribute('id','botonComprovar');
     divContainer.appendChild(botonComprovar);
 
 var botonClear = document.createElement('input');
 	botonClear.setAttribute('type','button');
 	botonClear.setAttribute('value','Limpiar');
+	botonClear.setAttribute('id','botonLimpiar');
     divContainer.appendChild(botonClear);
 
 

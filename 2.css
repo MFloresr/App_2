@@ -29,7 +29,7 @@ h1{
 }
 
 
-#botonEnviar, #botonLimpiar {
+#botonComprovar, #botonLimpiar {
 	margin: 1% auto auto auto;
 	padding: 1% 5% 1% 5%;
 	width:52.5%;
@@ -45,7 +45,7 @@ h1{
 	border-radius: 10px;
 }
 
-#botonEnviar:hover, #botonEnviar:focus,#botonLimpiar:hover,#botonLimpiar:focus {
+#botonComprovar:hover, #botonComprovar:focus,#botonLimpiar:hover,#botonLimpiar:focus {
 	color:#dfe7ea;
 	background: red; 
 }
@@ -54,20 +54,15 @@ h1{
 	margin: 1% auto 0 auto;
     width: 50%;
 	text-align: center;
-	background-color: #3EAD89; 
+	background-color: #3EAD89;
+	color: #fff;
+	font-size:200%;
+		font-family: arial; 
+
 }
 
-#resultado table{
+.vermell{
 	text-align: center;
-	padding: 1% 10% 1% 10%;
-	margin: 1% 1% 1% 1%;
-	background-color: #FFC7A5;
-}
+	background-color: red;
 
- td{
-	text-align: center;
-	padding: 2% 0 1% 0;
-	margin: 1% auto 1% auto;
-	width: 5%;
-	background-color: #FFF2EA;
 }
